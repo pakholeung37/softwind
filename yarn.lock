@@ -31,15 +31,15 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-node@next":
-  version "1.0.0-next.7"
-  resolved "https://registry.npm.taobao.org/@sveltejs/adapter-node/download/@sveltejs/adapter-node-1.0.0-next.7.tgz#0e8c9114b019f480ab1bcf6d8af101999732e0eb"
-  integrity sha1-DoyRFLAZ9ICrG89tivEBmZcy4Os=
+"@sveltejs/adapter-node@1.0.0-next.9":
+  version "1.0.0-next.9"
+  resolved "https://registry.npm.taobao.org/@sveltejs/adapter-node/download/@sveltejs/adapter-node-1.0.0-next.9.tgz#9077028d1e9705ffe642ecfcb87356674bc7ded8"
+  integrity sha1-kHcCjR6XBf/mQuz8uHNWZ0vH3tg=
 
-"@sveltejs/kit@next":
-  version "1.0.0-next.49"
-  resolved "https://registry.npm.taobao.org/@sveltejs/kit/download/@sveltejs/kit-1.0.0-next.49.tgz#993f7d7ec299f6d1a3fb2688c44f1b8c6769ee54"
-  integrity sha1-mT99fsKZ9tGj+yaIxE8bjGdp7lQ=
+"@sveltejs/kit@1.0.0-next.54":
+  version "1.0.0-next.54"
+  resolved "https://registry.npm.taobao.org/@sveltejs/kit/download/@sveltejs/kit-1.0.0-next.54.tgz#c8a6752e3a65698d94fcdb0a831e2b58b4900251"
+  integrity sha1-yKZ1LjplaY2U/NsKgx4rWLSQAlE=
   dependencies:
     "@svitejs/vite-plugin-svelte" "^0.11.0"
     cheap-watch "^1.0.3"
@@ -76,15 +76,16 @@
   dependencies:
     "@types/node" "*"
 
-"@windicss/plugin-utils@0.8.4":
-  version "0.8.4"
-  resolved "https://registry.npm.taobao.org/@windicss/plugin-utils/download/@windicss/plugin-utils-0.8.4.tgz#6613bad52cea86a260a040c37069234baac377ae"
-  integrity sha1-ZhO61SzqhqJgoEDDcGkjS6rDd64=
+"@windicss/plugin-utils@0.9.4":
+  version "0.9.4"
+  resolved "https://registry.npm.taobao.org/@windicss/plugin-utils/download/@windicss/plugin-utils-0.9.4.tgz#6f1212f672257a391e0077a7baf172a55282e631"
+  integrity sha1-bxIS9nIlejkeAHenuvFypVKC5jE=
   dependencies:
+    debug "^4.3.2"
     fast-glob "^3.2.5"
     micromatch "^4.0.2"
     sucrase "^3.17.1"
-    windicss "^2.4.5"
+    windicss "^2.5.2"
 
 ansi-styles@^4.1.0:
   version "4.3.0"
@@ -173,7 +174,7 @@ color-name@~1.1.4:
 
 colorette@^1.2.2:
   version "1.2.2"
-  resolved "https://registry.npm.taobao.org/colorette/download/colorette-1.2.2.tgz?cache=0&sync_timestamp=1614259623635&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcolorette%2Fdownload%2Fcolorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
+  resolved "https://registry.npm.taobao.org/colorette/download/colorette-1.2.2.tgz?cache=0&sync_timestamp=1614259591258&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcolorette%2Fdownload%2Fcolorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
   integrity sha1-y8x51emcrqLb8Q6zom/Ys+as+pQ=
 
 commander@^4.0.0:
@@ -193,15 +194,22 @@ debug@^4.3.1:
   dependencies:
     ms "2.1.2"
 
+debug@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.npm.taobao.org/debug/download/debug-4.3.2.tgz?cache=0&sync_timestamp=1607566533140&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
+  integrity sha1-8KScGKyHeeMdSgxgKd+3aHPHQos=
+  dependencies:
+    ms "2.1.2"
+
 detect-indent@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npm.taobao.org/detect-indent/download/detect-indent-6.0.0.tgz#0abd0f549f69fc6659a254fe96786186b6f528fd"
   integrity sha1-Cr0PVJ9p/GZZolT+lnhhhrb1KP0=
 
-esbuild@^0.9.2:
-  version "0.9.3"
-  resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.9.3.tgz#09293a0b824159c6aa2488d1c6c22f57d8448f74"
-  integrity sha1-CSk6C4JBWcaqJIjRxsIvV9hEj3Q=
+esbuild@^0.9.3:
+  version "0.9.5"
+  resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.9.5.tgz?cache=0&sync_timestamp=1616177749055&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fesbuild%2Fdownload%2Fesbuild-0.9.5.tgz#200e7836580c0a78849ee257656efd40dbf0b4df"
+  integrity sha1-IA54NlgMCniEnuJXZW79QNvwtN8=
 
 estree-walker@^2.0.1:
   version "2.0.2"
@@ -380,7 +388,7 @@ mz@^2.7.0:
 
 nanoid@^3.1.20:
   version "3.1.22"
-  resolved "https://registry.npm.taobao.org/nanoid/download/nanoid-3.1.22.tgz#b35f8fb7d151990a8aebd5aa5015c03cf726f844"
+  resolved "https://registry.npm.taobao.org/nanoid/download/nanoid-3.1.22.tgz?cache=0&sync_timestamp=1615820420384&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnanoid%2Fdownload%2Fnanoid-3.1.22.tgz#b35f8fb7d151990a8aebd5aa5015c03cf726f844"
   integrity sha1-s1+Pt9FRmQqK69WqUBXAPPcm+EQ=
 
 node-modules-regexp@^1.0.0:
@@ -467,9 +475,9 @@ reusify@^1.0.4:
   integrity sha1-kNo4Kx4SbvwCFG6QhFqI2xKSXXY=
 
 rollup@^2.38.5:
-  version "2.41.4"
-  resolved "https://registry.npm.taobao.org/rollup/download/rollup-2.41.4.tgz?cache=0&sync_timestamp=1615911627929&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frollup%2Fdownload%2Frollup-2.41.4.tgz#2a674d64db4322482d440699acb060dc6dd9e65f"
-  integrity sha1-KmdNZNtDIkgtRAaZrLBg3G3Z5l8=
+  version "2.42.1"
+  resolved "https://registry.npm.taobao.org/rollup/download/rollup-2.42.1.tgz?cache=0&sync_timestamp=1616220267240&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frollup%2Fdownload%2Frollup-2.42.1.tgz#6d675b7971e3bee510935326a0f7e556bb7d43de"
+  integrity sha1-bWdbeXHjvuUQk1MmoPflVrt9Q94=
   optionalDependencies:
     fsevents "~2.3.1"
 
@@ -493,6 +501,11 @@ sass@^1.0.0:
   integrity sha1-8WqavY3FMK3Yg05QaHiigIwDe9w=
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
+
+siema@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.npm.taobao.org/siema/download/siema-1.5.1.tgz#eff312b77e8340fa4d81d5d053ebbeb9113ff888"
+  integrity sha1-7/MSt36DQPpNgdXQU+u+uRE/+Ig=
 
 slash@^3.0.0:
   version "3.0.0"
@@ -591,30 +604,31 @@ typescript@^4.0.0:
   resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.2.3.tgz?cache=0&sync_timestamp=1615967103960&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
   integrity sha1-OQYtgBmRLUNyYpjwlJPVmASMHOM=
 
-vite-plugin-windicss@^0.8.4:
-  version "0.8.4"
-  resolved "https://registry.npm.taobao.org/vite-plugin-windicss/download/vite-plugin-windicss-0.8.4.tgz#d064822f2b9e6e2a5385c3fc0fdcf302e2ee545d"
-  integrity sha1-0GSCLyuebipThcP8D9zzAuLuVF0=
+vite-plugin-windicss@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.npm.taobao.org/vite-plugin-windicss/download/vite-plugin-windicss-0.9.4.tgz#cc77935b60b6f7ae6b51cbed9c9fd13e48bc705f"
+  integrity sha1-zHeTW2C2965rUcvtnJ/RPki8cF8=
   dependencies:
-    "@windicss/plugin-utils" "0.8.4"
-    windicss "^2.4.5"
+    "@windicss/plugin-utils" "0.9.4"
+    debug "^4.3.2"
+    windicss "^2.5.2"
 
-vite@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.npm.taobao.org/vite/download/vite-2.1.1.tgz#13c7a7a5665b435f28fe8549caab181e0ad9af7b"
-  integrity sha1-E8enpWZbQ18o/oVJyqsYHgrZr3s=
+vite@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npm.taobao.org/vite/download/vite-2.1.2.tgz#0aecaf6d34112b24536df1a14cd8d74fdcab6e20"
+  integrity sha1-CuyvbTQRKyRTbfGhTNjXT9yrbiA=
   dependencies:
-    esbuild "^0.9.2"
+    esbuild "^0.9.3"
     postcss "^8.2.1"
     resolve "^1.19.0"
     rollup "^2.38.5"
   optionalDependencies:
     fsevents "~2.3.1"
 
-windicss@^2.4.5:
-  version "2.4.7"
-  resolved "https://registry.npm.taobao.org/windicss/download/windicss-2.4.7.tgz#6154cc128eec80bd0cb71b34dda02dfcbacfb1aa"
-  integrity sha1-YVTMEo7sgL0Mtxs03aAt/LrPsao=
+windicss@^2.5.2:
+  version "2.5.3"
+  resolved "https://registry.npm.taobao.org/windicss/download/windicss-2.5.3.tgz#14b713364111d5e01cd5c62caac03c0a51765f15"
+  integrity sha1-FLcTNkER1eAc1cYsqsA8ClF2XxU=
 
 wrappy@1:
   version "1.0.2"
