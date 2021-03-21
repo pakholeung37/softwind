@@ -7,8 +7,9 @@
 </script>
 
 <div class="header-placeholder w-full h-16" />
+
 <header
-    class="header fixed top-0 w-full h-16 bg-white shadow-md flex px-8 justify-between"
+    class="header fixed top-0 w-full h-16 bg-white shadow-md flex px-8 justify-between z-10"
 >
     <div class="left flex items-center">
         <div class="logo">
