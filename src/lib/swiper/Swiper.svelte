@@ -1,14 +1,4 @@
 <script context="module" lang="ts">
-    let instance;
-    export function prev(...args) {
-        return instance && instance.prev(...args);
-    }
-    export function next(...args) {
-        return instance && instance.next(...args);
-    }
-    export function goto(...args) {
-        return instance && instance.goTo(...args);
-    }
     export type SwiprableOptions = {
         autoPlay?: boolean;
         interval?: number;
@@ -19,8 +9,10 @@
 </script>
 
 <script lang="ts">
-    import Swiper from "siema";
+    import Swiper from "./Siema";
     import { createEventDispatcher } from "svelte";
+    // for binding
+    export let value = 0;
 
     export let autoPlay = false;
     export let interval = 3000;
@@ -30,33 +22,34 @@
     // export let height = 300; //px
     export let adaptive = false; //是否适应容器
 
-    let options;
+    let instance;
 
-    let swiperElement;
+    let options: SwiprableOptions;
+
     const dispatch = createEventDispatcher();
 
     $: options = { autoPlay, interval, duration, loop, startIndex };
 
+    function valueUpdate(value: number) {
+        instance && instance.goTo(value);
+    }
+
+    $: valueUpdate(value);
+
     function swiperable(el, options) {
         let autoPlayTimer = null;
-        let index;
         function init(el, options) {
-            index = options.startIndex;
+            value = options.startIndex;
             instance = new Swiper({
                 selector: el,
                 ...options,
                 onInit: () => {
-                    const { autoPlay, interval, duration } = options;
-                    if (autoPlay) {
-                        console.log(instance);
-                        autoPlayTimer = setInterval(() => {
-                            instance.next();
-                        }, interval + duration);
-                    }
                     dispatch("init", options);
                 },
                 onChange: () => {
-                    dispatch("change", { index: instance.currentSlide });
+                    const v = instance.currentSlide;
+                    value = v;
+                    dispatch("change", { index: v });
                 },
             });
         }
@@ -70,6 +63,7 @@
             destroy() {
                 if (instance) {
                     instance && instance.destroy();
+                    instance = null;
                 }
                 if (autoPlayTimer) {
                     clearInterval(autoPlayTimer);

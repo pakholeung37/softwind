@@ -1,5 +1,6 @@
 <script lang="ts">
     import Banner from "./index/_Banner.svelte";
+    import Numbers from "./index/_Numbers.svelte";
 </script>
 
 <svelte:head>
@@ -7,6 +8,7 @@
 </svelte:head>
 
 <Banner />
+<Numbers />
 <h1>Hello world!</h1>
 
 <p>
