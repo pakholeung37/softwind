@@ -7,16 +7,13 @@
 
     const slides = [Slide1, Slide2, Slide3];
     let currentIndex = 0;
-    function swiperChange({ detail: { index = 0 } }) {
-        console.log("swiper change: ", index);
-    }
     function handleIndicatorClick(index) {
         currentIndex = index;
     }
 </script>
 
 <div class="banner relative w-full bg-red-400">
-    <Swiper interval={5000} bind:value={currentIndex} on:change={swiperChange}>
+    <Swiper interval={5000} bind:value={currentIndex}>
         {#each slides as slide}
             <SwiperItem>
                 <svelte:component this={slide} />

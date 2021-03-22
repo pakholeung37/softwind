@@ -23,7 +23,7 @@
     export let adaptive = false; //是否适应容器
 
     let instance;
-
+    let hasMounted = false;
     let options: SwiprableOptions;
 
     const dispatch = createEventDispatcher();
@@ -33,7 +33,6 @@
     function valueUpdate(value: number) {
         instance && instance.goTo(value);
     }
-
     $: valueUpdate(value);
 
     function swiperable(el, options) {
@@ -44,6 +43,7 @@
                 selector: el,
                 ...options,
                 onInit: () => {
+                    hasMounted = true;
                     dispatch("init", options);
                 },
                 onChange: () => {
@@ -74,10 +74,6 @@
     }
 </script>
 
-<div
-    class="swiper relative"
-    use:swiperable={options}
-    style={adaptive ? "" : ""}
->
+<div class="swiper relative" use:swiperable={options}>
     <slot />
 </div>

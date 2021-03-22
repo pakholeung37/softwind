@@ -3,6 +3,7 @@
     import Numbers from "./index/_Numbers.svelte";
     import Block1 from "./index/_block-新电商玩法/Block.svelte";
     import Block2 from "./index/_block-助力企业/Block.svelte";
+    import Block3 from "./index/_block-商城模版/Block.svelte";
 </script>
 
 <svelte:head>
@@ -13,4 +14,4 @@
 <Numbers />
 <Block1 />
 <Block2 />
-<div style="height: 1000px" />
+<Block3 />

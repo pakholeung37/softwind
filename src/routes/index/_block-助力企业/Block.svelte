@@ -9,7 +9,6 @@
     let active = -1;
 
     function setActive(index) {
-        console.log(index);
         active = index;
     }
 </script>
@@ -20,7 +19,7 @@
         <h2 class="text-2xl text-gray-800">轻松搭建3端商城</h2>
     </div>
     <div class="flex justify-center ">
-        <div class="w-104 rounded-2xl overflow-hidden shadow-2xl mr-148">
+        <div class="w-104 rounded-2xl overflow-hidden shadow-xl mr-148">
             <div class="p-8 bg-orange-400">
                 <span class="text-white text-2xl">
                     <p>1站3端轻松管理</p>

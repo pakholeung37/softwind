@@ -174,6 +174,8 @@ export default class Siema {
         // build a frame and slide to a currentSlide
         if (this.config.autoPlay) this.start();
         this.buildSliderFrame();
+
+        this.config.onInit.call(this);
     }
 
     /**
