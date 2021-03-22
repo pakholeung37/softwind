@@ -1,6 +1,8 @@
 <script lang="ts">
-    import Banner from "./index/_Banner.svelte";
+    import Banner from "./index/_banner/_Banner.svelte";
     import Numbers from "./index/_Numbers.svelte";
+    import Block1 from "./index/_block-新电商玩法/Block.svelte";
+    import Block2 from "./index/_block-助力企业/Block.svelte";
 </script>
 
 <svelte:head>
@@ -9,45 +11,6 @@
 
 <Banner />
 <Numbers />
-<h1>Hello world!</h1>
-
-<p>
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
-</p>
-<p>
-    Dolore et tenetur qui veritatis ipsa commodi aut saepe. Dolor quas minus
-    voluptas voluptas voluptas rerum. Cum iste dolore quia quod. Earum sed a aut
-    voluptatem omnis. Est asperiores ab officia aut facilis tenetur et. Non
-    inventore non ut. Veniam consequatur non. Labore ad eos laudantium
-    blanditiis cum. Eum ut et qui voluptatem ducimus fugiat. Iure molestiae non.
-    Ex voluptatibus qui consectetur consequatur. Quibusdam est voluptatibus
-    corporis quis voluptates debitis molestiae sed. Ratione consequatur sed.
-</p>
-<p>
-    Dolore et tenetur qui veritatis ipsa commodi aut saepe. Dolor quas minus
-    voluptas voluptas voluptas rerum. Cum iste dolore quia quod. Earum sed a aut
-    voluptatem omnis. Est asperiores ab officia aut facilis tenetur et. Non
-    inventore non ut. Veniam consequatur non. Labore ad eos laudantium
-    blanditiis cum. Eum ut et qui voluptatem ducimus fugiat. Iure molestiae non.
-    Ex voluptatibus qui consectetur consequatur. Quibusdam est voluptatibus
-    corporis quis voluptates debitis molestiae sed. Ratione consequatur sed.
-</p>
-<p>
-    Dolore et tenetur qui veritatis ipsa commodi aut saepe. Dolor quas minus
-    voluptas voluptas voluptas rerum. Cum iste dolore quia quod. Earum sed a aut
-    voluptatem omnis. Est asperiores ab officia aut facilis tenetur et. Non
-    inventore non ut. Veniam consequatur non. Labore ad eos laudantium
-    blanditiis cum. Eum ut et qui voluptatem ducimus fugiat. Iure molestiae non.
-    Ex voluptatibus qui consectetur consequatur. Quibusdam est voluptatibus
-    corporis quis voluptates debitis molestiae sed. Ratione consequatur sed.
-</p>
-<p>
-    Dolore et tenetur qui veritatis ipsa commodi aut saepe. Dolor quas minus
-    voluptas voluptas voluptas rerum. Cum iste dolore quia quod. Earum sed a aut
-    voluptatem omnis. Est asperiores ab officia aut facilis tenetur et. Non
-    inventore non ut. Veniam consequatur non. Labore ad eos laudantium
-    blanditiis cum. Eum ut et qui voluptatem ducimus fugiat. Iure molestiae non.
-    Ex voluptatibus qui consectetur consequatur. Quibusdam est voluptatibus
-    corporis quis voluptates debitis molestiae sed. Ratione consequatur sed.
-</p>
+<Block1 />
+<Block2 />
+<div style="height: 1000px" />

@@ -1,6 +1,6 @@
 <script lang="ts">
 </script>
 
-<div class="slide-container h-full">
+<div class="slide-container">
     <slot />
 </div>

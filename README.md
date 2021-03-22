@@ -1,6 +1,6 @@
 # SoftWind
 
-Experimental editor built with vite sveltejs/kit and windicss. Proof of concept.
+Experimental website demo built with vite sveltejs/kit and windicss. Proof of concept.
 
 ## Usage
 

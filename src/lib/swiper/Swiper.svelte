@@ -75,9 +75,9 @@
 </script>
 
 <div
-    class="swiper overflow-hidden"
+    class="swiper relative"
     use:swiperable={options}
-    style={adaptive && "height: 100%"}
+    style={adaptive ? "" : ""}
 >
     <slot />
 </div>
