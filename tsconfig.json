@@ -17,6 +17,7 @@
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "baseUrl": ".",
+        "noEmit": true,
         "allowJs": true,
         "checkJs": true,
         "paths": {
