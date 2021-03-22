@@ -1,4 +1,6 @@
-module.exports = {
+import { defineConfig } from "vite-plugin-windicss";
+
+export default defineConfig({
     theme: {
         extend: {
             borderRadius: {
@@ -6,4 +8,4 @@ module.exports = {
             },
         },
     },
-};
+});

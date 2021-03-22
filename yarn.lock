@@ -76,16 +76,16 @@
   dependencies:
     "@types/node" "*"
 
-"@windicss/plugin-utils@0.9.4":
-  version "0.9.4"
-  resolved "https://registry.npm.taobao.org/@windicss/plugin-utils/download/@windicss/plugin-utils-0.9.4.tgz#6f1212f672257a391e0077a7baf172a55282e631"
-  integrity sha1-bxIS9nIlejkeAHenuvFypVKC5jE=
+"@windicss/plugin-utils@0.9.6":
+  version "0.9.6"
+  resolved "https://registry.npm.taobao.org/@windicss/plugin-utils/download/@windicss/plugin-utils-0.9.6.tgz#89e4709bc48c9eb03c2484054f519560791ccafa"
+  integrity sha1-ieRwm8SMnrA8JIQFT1GVYHkcyvo=
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
     micromatch "^4.0.2"
     sucrase "^3.17.1"
-    windicss "^2.5.2"
+    windicss "^2.5.4"
 
 ansi-styles@^4.1.0:
   version "4.3.0"
@@ -604,14 +604,14 @@ typescript@^4.0.0:
   resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.2.3.tgz?cache=0&sync_timestamp=1615967103960&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
   integrity sha1-OQYtgBmRLUNyYpjwlJPVmASMHOM=
 
-vite-plugin-windicss@^0.9.4:
-  version "0.9.4"
-  resolved "https://registry.npm.taobao.org/vite-plugin-windicss/download/vite-plugin-windicss-0.9.4.tgz#cc77935b60b6f7ae6b51cbed9c9fd13e48bc705f"
-  integrity sha1-zHeTW2C2965rUcvtnJ/RPki8cF8=
+vite-plugin-windicss@^0.9.6:
+  version "0.9.6"
+  resolved "https://registry.npm.taobao.org/vite-plugin-windicss/download/vite-plugin-windicss-0.9.6.tgz#8c1b55e365ef311296e0db427ed358b5b46247b1"
+  integrity sha1-jBtV42XvMRKW4NtCftNYtbRiR7E=
   dependencies:
-    "@windicss/plugin-utils" "0.9.4"
+    "@windicss/plugin-utils" "0.9.6"
     debug "^4.3.2"
-    windicss "^2.5.2"
+    windicss "^2.5.4"
 
 vite@^2.1.2:
   version "2.1.2"
@@ -625,10 +625,10 @@ vite@^2.1.2:
   optionalDependencies:
     fsevents "~2.3.1"
 
-windicss@^2.5.2:
-  version "2.5.3"
-  resolved "https://registry.npm.taobao.org/windicss/download/windicss-2.5.3.tgz#14b713364111d5e01cd5c62caac03c0a51765f15"
-  integrity sha1-FLcTNkER1eAc1cYsqsA8ClF2XxU=
+windicss@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.npm.taobao.org/windicss/download/windicss-2.5.4.tgz#e89cd614cc4a7c2c13cc5af588642959de6746db"
+  integrity sha1-6JzWFMxKfCwTzFr1iGQpWd5nRts=
 
 wrappy@1:
   version "1.0.2"
