@@ -46,7 +46,7 @@
     .action-placeholder {
         &:hover {
             .item-container {
-                @apply -top-16  shadow-xl;
+                @apply -top-12  shadow-xl;
             }
             .icon-container {
                 @apply w-full h-full rounded-none;
