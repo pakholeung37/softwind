@@ -14,6 +14,9 @@
     // for binding
     export let value = 0;
 
+    export let height = "auto";
+    export let width = "auto";
+
     export let autoPlay = false;
     export let interval = 3000;
     export let duration = 500;
@@ -74,6 +77,10 @@
     }
 </script>
 
-<div class="swiper relative" use:swiperable={options}>
+<div
+    class="swiper relative"
+    style="height: {height}; width: {width};"
+    use:swiperable={options}
+>
     <slot />
 </div>
