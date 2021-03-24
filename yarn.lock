@@ -31,33 +31,33 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-node@1.0.0-next.9":
-  version "1.0.0-next.9"
-  resolved "https://registry.npm.taobao.org/@sveltejs/adapter-node/download/@sveltejs/adapter-node-1.0.0-next.9.tgz#9077028d1e9705ffe642ecfcb87356674bc7ded8"
-  integrity sha1-kHcCjR6XBf/mQuz8uHNWZ0vH3tg=
+"@sveltejs/adapter-node@1.0.0-next.10":
+  version "1.0.0-next.10"
+  resolved "https://registry.npm.taobao.org/@sveltejs/adapter-node/download/@sveltejs/adapter-node-1.0.0-next.10.tgz#7ad40673bc79c3dd585983743132c83714c8cb4a"
+  integrity sha1-etQGc7x5w91YWYN0MTLINxTIy0o=
 
-"@sveltejs/kit@1.0.0-next.54":
-  version "1.0.0-next.54"
-  resolved "https://registry.npm.taobao.org/@sveltejs/kit/download/@sveltejs/kit-1.0.0-next.54.tgz#c8a6752e3a65698d94fcdb0a831e2b58b4900251"
-  integrity sha1-yKZ1LjplaY2U/NsKgx4rWLSQAlE=
+"@sveltejs/kit@1.0.0-next.57":
+  version "1.0.0-next.57"
+  resolved "https://registry.npm.taobao.org/@sveltejs/kit/download/@sveltejs/kit-1.0.0-next.57.tgz#f823d5294f20f2eb87cda4b97bbbe627af171453"
+  integrity sha1-+CPVKU8g8uuHzaS5e7vmJ68XFFM=
   dependencies:
-    "@svitejs/vite-plugin-svelte" "^0.11.0"
+    "@sveltejs/vite-plugin-svelte" "^1.0.0-next.5"
     cheap-watch "^1.0.3"
     sade "^1.7.4"
 
-"@svitejs/vite-plugin-svelte@^0.11.0":
-  version "0.11.1"
-  resolved "https://registry.npm.taobao.org/@svitejs/vite-plugin-svelte/download/@svitejs/vite-plugin-svelte-0.11.1.tgz#aa5181c54cf338f1056e5a87d10db2cadb394ae8"
-  integrity sha1-qlGBxUzzOPEFblqH0Q2yyts5Sug=
+"@sveltejs/vite-plugin-svelte@^1.0.0-next.5":
+  version "1.0.0-next.5"
+  resolved "https://registry.npm.taobao.org/@sveltejs/vite-plugin-svelte/download/@sveltejs/vite-plugin-svelte-1.0.0-next.5.tgz#8cf608f7a3c33dfa5b648397aae1ba90e6a4883f"
+  integrity sha1-jPYI96PDPfpbZIOXquG6kOakiD8=
   dependencies:
     "@rollup/pluginutils" "^4.1.0"
     chalk "^4.1.0"
-    debug "^4.3.1"
+    debug "^4.3.2"
     hash-sum "^2.0.0"
     require-relative "^0.8.7"
     slash "^3.0.0"
     source-map "^0.7.3"
-    svelte-hmr "^0.13.0"
+    svelte-hmr "^0.13.3"
 
 "@types/node@*":
   version "14.14.35"
@@ -76,10 +76,10 @@
   dependencies:
     "@types/node" "*"
 
-"@windicss/plugin-utils@0.9.6":
-  version "0.9.6"
-  resolved "https://registry.npm.taobao.org/@windicss/plugin-utils/download/@windicss/plugin-utils-0.9.6.tgz#89e4709bc48c9eb03c2484054f519560791ccafa"
-  integrity sha1-ieRwm8SMnrA8JIQFT1GVYHkcyvo=
+"@windicss/plugin-utils@0.9.8":
+  version "0.9.8"
+  resolved "https://registry.npm.taobao.org/@windicss/plugin-utils/download/@windicss/plugin-utils-0.9.8.tgz#b9f59d3310986b6c104fbba8d9e0088e2416520d"
+  integrity sha1-ufWdMxCYa2wQT7uo2eAIjiQWUg0=
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
@@ -186,13 +186,6 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.npm.taobao.org/concat-map/download/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
-
-debug@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.npm.taobao.org/debug/download/debug-4.3.1.tgz?cache=0&sync_timestamp=1607566533140&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
-  integrity sha1-8NIpxQXgxtjEmsVT0bE9wYP2su4=
-  dependencies:
-    ms "2.1.2"
 
 debug@^4.3.2:
   version "4.3.2"
@@ -495,7 +488,7 @@ sade@^1.7.4:
   dependencies:
     mri "^1.1.0"
 
-sass@^1.0.0:
+sass@^1.32.0:
   version "1.32.8"
   resolved "https://registry.npm.taobao.org/sass/download/sass-1.32.8.tgz?cache=0&sync_timestamp=1613686491856&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsass%2Fdownload%2Fsass-1.32.8.tgz#f16a9abd8dc530add8834e506878a2808c037bdc"
   integrity sha1-8WqavY3FMK3Yg05QaHiigIwDe9w=
@@ -548,12 +541,12 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-hmr@^0.13.0:
-  version "0.13.1"
-  resolved "https://registry.npm.taobao.org/svelte-hmr/download/svelte-hmr-0.13.1.tgz#94e718d0ca2440322046f55097408c919ffe00fe"
-  integrity sha1-lOcY0MokQDIgRvVQl0CMkZ/+AP4=
+svelte-hmr@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.npm.taobao.org/svelte-hmr/download/svelte-hmr-0.13.3.tgz#fba5739b477ea44caf70e542a24a4352bee2b897"
+  integrity sha1-+6Vzm0d+pEyvcOVCokpDUr7iuJc=
 
-svelte-preprocess@^4.0.0:
+svelte-preprocess@^4.6.9:
   version "4.6.9"
   resolved "https://registry.npm.taobao.org/svelte-preprocess/download/svelte-preprocess-4.6.9.tgz#073d923eb351b98b6c6a454ba5feee981cd9dbf5"
   integrity sha1-Bz2SPrNRuYtsakVLpf7umBzZ2/U=
@@ -563,7 +556,7 @@ svelte-preprocess@^4.0.0:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte@^3.29.0:
+svelte@^3.35.0:
   version "3.35.0"
   resolved "https://registry.npm.taobao.org/svelte/download/svelte-3.35.0.tgz#e0d0ba60c4852181c2b4fd851194be6fda493e65"
   integrity sha1-4NC6YMSFIYHCtP2FEZS+b9pJPmU=
@@ -604,12 +597,12 @@ typescript@^4.0.0:
   resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.2.3.tgz?cache=0&sync_timestamp=1615967103960&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
   integrity sha1-OQYtgBmRLUNyYpjwlJPVmASMHOM=
 
-vite-plugin-windicss@^0.9.6:
-  version "0.9.6"
-  resolved "https://registry.npm.taobao.org/vite-plugin-windicss/download/vite-plugin-windicss-0.9.6.tgz#8c1b55e365ef311296e0db427ed358b5b46247b1"
-  integrity sha1-jBtV42XvMRKW4NtCftNYtbRiR7E=
+vite-plugin-windicss@^0.9.8:
+  version "0.9.8"
+  resolved "https://registry.npm.taobao.org/vite-plugin-windicss/download/vite-plugin-windicss-0.9.8.tgz#3c2fb9e50580625e795fd0c68d98632cbc379b71"
+  integrity sha1-PC+55QWAYl55X9DGjZhjLLw3m3E=
   dependencies:
-    "@windicss/plugin-utils" "0.9.6"
+    "@windicss/plugin-utils" "0.9.8"
     debug "^4.3.2"
     windicss "^2.5.4"
 
